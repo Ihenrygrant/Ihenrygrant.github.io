@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Bootstrap 4 Github Pages
+title: Hello,
 ---
+
+## I'm Ian Grant - A Software Engineer from Santa Barbara.
+
+Feel free to contact me if you are interested in my work or for any other inquiries.
+
+
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/nicolas-van/bootstrap-4-github-pages?style=social)](https://github.com/nicolas-van/bootstrap-4-github-pages)
 

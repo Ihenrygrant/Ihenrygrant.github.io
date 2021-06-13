@@ -1306,6 +1306,13 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
+
+.intro-profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
 .intro-overlay {
 	position: absolute;
 	top: 0;

@@ -1,65 +1,129 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
 {%- include head.html -%}
 
 <body>
 
-  {%- include header.html -%}
+    {%- include header.html -%}
+    {%- include home.html -%}
+    <div class="py-5">
 
-  <div class="py-5">
+        <div class="container page-content">
 
-    <div class="container page-content">
-      {{ content }}
+            {{ content }}
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+            <hr style="height:5px">
+
+            <h2>Tech Stack</h2>
+            <p>To avoid overcrowding a resume, here is a list of technologies I have experience using.</p>
+
+            <br>
+            <h5>Languages</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Java </div>
+                <div class="col-md-3"> JavaScript</div>
+                <div class="col-md-3"> C#</div>
+                <div class="col-md-3"> C++ </div>
+                <div class="col-md-3"> Typescript </div>
+                <div class="col-md-3"> Python </div>
+                <div class="col-md-3"> HTML </div>
+                <div class="col-md-3"> JSON </div>
+                <div class="col-md-3"> CSS </div>
+                <div class="col-md-3"> JQuery </div>
+                <div class="col-md-3"> Ruby (this site) </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+
+            <br>
+            <h5>Frameworks</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Angular </div>
+                <div class="col-md-3"> React </div>
+                <div class="col-md-3"> Ionic </div>
+                <div class="col-md-3"> Bootstrap </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content.</p>
+
+            <br>
+            <h5>Database</h5>
+
+            <div class="row">
+                <div class="col-md-3"> MySQL </div>
+                <div class="col-md-3"> indexDB </div>
+                <div class="col-md-3"> GUN </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+
+            <br>
+            <h5>IDE</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Android Studio </div>
+                <div class="col-md-3"> Xcode </div>
+                <div class="col-md-3"> Visual Studio </div>
+                <div class="col-md-3"> Visual Studio Code </div>
             </div>
-          </div>
+
+            <br>
+            <h5>Platforms</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Node.js </div>
+            </div>
+
+            <br>
+            <h5>Source Control</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Git </div>
+                <div class="col-md-3"> Github </div>
+                <div class="col-md-3"> Gitlab </div>
+                <div class="col-md-3"> GitKraken </div>
+
+            </div>
+
+            <br>
+            <h5>Software</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Gradle </div>
+                <div class="col-md-3"> Docker </div>
+                <div class="col-md-3"> Leaflet </div>
+                <div class="col-md-3"> Leaflet-Draw </div>
+            </div>
+
+            <br>
+            <h5>Game Engine</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Unity </div>
+            </div>
+
+            <br>
+            <h5>Systems</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Windows </div>
+                <div class="col-md-3"> Linux </div>
+                <div class="col-md-3"> Mac </div>
+            </div>
+
+            <hr style="height:1px">
+
+            <h5>Hobbies</h5>
+
+            <div class="row">
+                <div class="col-md-3"> Blender - 3D modeling </div>
+                <div class="col-md-3"> Photoshop </div>
+            </div>
+
+            <hr style="height:5px">
+
         </div>
-      </div>
 
     </div>
 
-  </div>
-
-  {%- include footer.html -%}
+    {%- include footer.html -%}
 
 </body>
 

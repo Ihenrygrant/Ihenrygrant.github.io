@@ -2109,6 +2109,20 @@ input::-moz-focus-inner {
     padding-left: 13rem;
 }
 
+.about-content span {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    background: var(--shaded);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin: 5px;
+}
+
 .about-content {
     position: relative;
     text-align: left;
